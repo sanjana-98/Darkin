@@ -1,0 +1,21 @@
+{
+    "name": "Dark Mode Extension",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Turns Light mode of a webpage to dark mode",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Darkin",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
